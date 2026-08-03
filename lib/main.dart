@@ -34,18 +34,11 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(
-                Icons.school,
-                size: 80,
-                color: Colors.green,
-              ),
+              Icon(Icons.school, size: 80, color: Colors.green),
               SizedBox(height: 20),
               Text(
                 'Welcome to EduConnect Uganda!',
-                style: TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
-                ),
+                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                 textAlign: TextAlign.center,
               ),
               SizedBox(height: 10),
